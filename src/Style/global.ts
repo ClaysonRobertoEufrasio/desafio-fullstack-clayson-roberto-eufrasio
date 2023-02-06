@@ -41,7 +41,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  font-family: 'Inter', sans-serif;
+  	font-family: 'Inter', sans-serif;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -51,10 +51,10 @@ body {
 	line-height: 1;
 }
 body::-webkit-scrollbar {
-  width: 12px;
+	width: 12px;
 }
 body::-webkit-scrollbar-track {
-  background: #f4f4f4;
+	background: #f4f4f4;
 }
 body::-webkit-scrollbar-thumb {
   background-color: #86929B;
