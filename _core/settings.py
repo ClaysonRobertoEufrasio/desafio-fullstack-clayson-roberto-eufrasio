@@ -48,7 +48,10 @@ THIRD_PARTY_APPS = [
     "drf_spectacular",
 ]
 
-MY_APPS = []
+MY_APPS = [
+    "contats",
+    "customers",
+]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MY_APPS
 
@@ -61,6 +64,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
 
 ROOT_URLCONF = "_core.urls"
 
